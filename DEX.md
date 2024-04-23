@@ -110,7 +110,7 @@ All orders signed by the CEX should eventually (e.g. within 1 minute) get
 committed onto the underlying DEX ledger.  The orders must be in incrementing
 sequence order, and all the hashes must match the previous order's hash.
 
-Users can also withdraw funds from the CEX's subledger onto the the base DEX or
+Users can also withdraw funds from the CEX's subledger onto the base DEX or
 another CEX's subledger by signing a withdrawal transaction and submitting it
 to the CEX for sequencing and signing, just like any order transaction.  As
 we'll see in the next section, the CEX's cooperation is not necessary to

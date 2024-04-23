@@ -189,7 +189,7 @@ partners), etc.  One could also imagine a much slower, but more distributed
 
 If a validator misbehaves on its own by double-signing at the same height &amp;
 round, then the evidence is very short and simple -- it's just the two
-conflicting votes.  This evidence can be included in the the CosmosHub as a
+conflicting votes.  This evidence can be included in the CosmosHub as a
 Slash transaction, and the validator will immediately become inactive and
 slashed after the Slash transaction gets committed.
 
